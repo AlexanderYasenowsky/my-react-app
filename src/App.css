@@ -1,0 +1,9 @@
+.App{
+	width: 60vw;
+	height: 600px;
+	margin: 10vh auto;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	display: flex;
+}
