@@ -1,7 +1,9 @@
 import React from 'react';
-import './App.css';
-import Navigation from './components/nav.js'
-import Table from './components/table.js'
+import './App.scss';
+import Navigation from './components/nav/nav.jsx';
+import Table from './components/data/data.jsx';
+import Header from './components/header/header.jsx'
+
 function App() {
   let data = [
   	{id: 1, name: 'Alexander', surname: 'Yasenowsky', degree:'High'},
@@ -11,8 +13,11 @@ function App() {
 
   return (
     <div className="App">
-        <Navigation />
+      <Header />
+      <div className="wrapper">
+        <Navigation data = {data}/>
         <Table />
+      </div>
     </div>
   );
 }

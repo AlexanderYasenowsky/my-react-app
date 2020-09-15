@@ -1,0 +1,14 @@
+.menu{
+   border-right: 1px solid black;
+   li{
+      list-style-type: none;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 10px;
+      color: #b95858;
+      &:hover{
+         background-color: rgb(47, 45, 139);
+         cursor: pointer;
+      }
+   }
+}
