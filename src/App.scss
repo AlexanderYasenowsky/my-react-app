@@ -4,10 +4,7 @@
 	margin: 10vh auto;
 	background-color: #fff;
 	border: 1px solid rgba(31, 21, 21, 0.541);
-	border-radius: 20px;
-	.wrapper{
-		display: flex;
-		width: 100%;
-		height: calc(100% - (30px));
-	}
+	border-radius: 20px;	
+	display: flex;
+	flex-direction: column;
 }
